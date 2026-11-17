@@ -1,0 +1,201 @@
+{
+  "title": "Gestione pratiche dello sportello al cittadino",
+  "description": "Prototipo navigabile per consultare le pratiche, controllare stato e scadenze e registrare nuove richieste. Dati interamente inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Riepilogo delle pratiche e delle scadenze imminenti.",
+      "metrics": [
+        {
+          "label": "Pratiche aperte",
+          "value": "18"
+        },
+        {
+          "label": "In attesa",
+          "value": "6"
+        },
+        {
+          "label": "In scadenza entro 7 giorni",
+          "value": "4"
+        },
+        {
+          "label": "Scadute",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Codice pratica",
+        "Richiedente",
+        "Organizzazione",
+        "Oggetto",
+        "Stato",
+        "Scadenza"
+      ],
+      "rows": [
+        [
+          "PR-104",
+          "Lumo",
+          "Borgata Nubi",
+          "Rinnovo concessione",
+          "In lavorazione",
+          "12/06/2026"
+        ],
+        [
+          "PR-105",
+          "Vela",
+          "Officina Quarzo",
+          "Richiesta attestazione",
+          "In attesa",
+          "14/06/2026"
+        ],
+        [
+          "PR-106",
+          "Nubi",
+          "Giardino Mirto",
+          "Aggiornamento registrazione",
+          "Da verificare",
+          "16/06/2026"
+        ],
+        [
+          "PR-107",
+          "Riva",
+          "Atelier Brina",
+          "Segnalazione manutenzione",
+          "Scaduta",
+          "03/06/2026"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "elenco-pratiche",
+      "title": "Elenco pratiche",
+      "description": "Tabella consultabile e filtrabile per stato, scadenza o richiedente.",
+      "metrics": [
+        {
+          "label": "Pratiche totali",
+          "value": "18"
+        },
+        {
+          "label": "In lavorazione",
+          "value": "7"
+        },
+        {
+          "label": "Completate",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Codice pratica",
+        "Richiedente",
+        "Organizzazione",
+        "Oggetto",
+        "Stato",
+        "Data apertura",
+        "Scadenza"
+      ],
+      "rows": [
+        [
+          "PR-101",
+          "Lumo",
+          "Borgata Nubi",
+          "Rinnovo concessione",
+          "In lavorazione",
+          "20/05/2026",
+          "12/06/2026"
+        ],
+        [
+          "PR-102",
+          "Vela",
+          "Officina Quarzo",
+          "Richiesta attestazione",
+          "In attesa",
+          "22/05/2026",
+          "14/06/2026"
+        ],
+        [
+          "PR-103",
+          "Nubi",
+          "Giardino Mirto",
+          "Aggiornamento registrazione",
+          "Da verificare",
+          "24/05/2026",
+          "16/06/2026"
+        ],
+        [
+          "PR-104",
+          "Riva",
+          "Atelier Brina",
+          "Segnalazione manutenzione",
+          "Scaduta",
+          "25/05/2026",
+          "03/06/2026"
+        ],
+        [
+          "PR-105",
+          "Timo",
+          "Casa Lieve",
+          "Richiesta copia documento",
+          "Completata",
+          "27/05/2026",
+          "10/06/2026"
+        ],
+        [
+          "PR-106",
+          "Alba",
+          "Cooperativa Selce",
+          "Permesso temporaneo",
+          "In lavorazione",
+          "29/05/2026",
+          "18/06/2026"
+        ],
+        [
+          "PR-107",
+          "Miro",
+          "Laboratorio Opale",
+          "Variazione dati pratica",
+          "In attesa",
+          "30/05/2026",
+          "20/06/2026"
+        ],
+        [
+          "PR-108",
+          "Sera",
+          "Orto delle Vele",
+          "Segnalazione illuminazione",
+          "In lavorazione",
+          "01/06/2026",
+          "21/06/2026"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-pratica",
+      "title": "Nuova pratica",
+      "description": "Registra una richiesta allo sportello e assegna stato e scadenza iniziali.",
+      "metrics": [],
+      "columns": [
+        "Codice pratica",
+        "Richiedente",
+        "Organizzazione",
+        "Oggetto",
+        "Stato",
+        "Data apertura",
+        "Scadenza"
+      ],
+      "rows": [],
+      "form": [
+        "Codice pratica",
+        "Richiedente",
+        "Organizzazione",
+        "Oggetto",
+        "Stato",
+        "Data apertura",
+        "Scadenza"
+      ]
+    }
+  ]
+}
